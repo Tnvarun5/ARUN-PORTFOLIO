@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo2.png">
+    <title>Timeless Trend</title>
+</head>
+<body class="body">
+    <nav>
+        <h1>Timeless Trend</h1>
+        <img src="images/logo.jpg" alt="" width="80px">
+        <ul>
+            
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="product.html">Collections</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="Home.html#contact">contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="aboutc">
+    <h1>About Timeless Treand</h1>
+
+    <h2>Welcome to Timeless Treand, Where Time Meets Elegance</h2>
+    <p>At Timeless Treand, we believe that time isn't just a measurement; it's an expression of your unique style, a reflection of your
+         personality, and an integral part of your journey. Since our inception, we've been dedicated to curating a timeless collection of
+          wristwatches that not only keep you punctual but also make a statement.</p>
+
+          <h2>Our Story</h2>
+        <p>
+
+            Our journey began 2003, and it's been a remarkable one. We started this venture with a passion for horology and a vision to offer our customers more than just timepieces. We wanted to provide an experience, a connection between the art of watchmaking and your individuality.
+            
+            Over the years, we've carefully selected each watch that graces our store, focusing on quality, craftsmanship, and design. We've nurtured relationships with renowned watchmakers and sought out emerging talents to bring you the best of both the classic and the contemporary.</p>  
+
+            <h2>Our Commitment</h2>
+           
+            <p>
+
+                At Timeless Treands, our commitment is unwavering. We stand for:
+                <br>
+               <b> Quality:</b> Every watch in our collection undergoes rigorous quality checks. We believe that a watch is a reflection of your values, and we strive to provide timepieces that stand the test of time.
+                <br>
+              <b>  Style:</b> Our selection caters to diverse tastes. From vintage classics to modern marvels, you'll find a watch that resonates with your style and personality.
+                <br>
+            <b>   Service: </b> We're not just a store; we're your horological companion. Our dedicated customer support team is here to assist you and ensure your shopping experience is seamless.</p>
+
+            <h2>Our Selection</h2>
+        <p>
+
+            Our collection is a carefully curated assortment of watches from around the world. Whether you're looking for a sophisticated dress watch for a special occasion or a durable, stylish timepiece 
+            for everyday wear, we have something for everyone.</p>
+     
+        </div>
+        
+        
+        <div class="footer">
+            <div class="date00">
+                <SCRIPT LANGUAGE="JavaScript">
+                var now = new Date();
+                
+                var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+                
+                var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+                
+                var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+                
+                function fourdigits(number)	{
+                    return (number < 1000) ? number + 1900 : number;
+                                                }
+                today =  days[now.getDay()] + ", " +
+                         months[now.getMonth()] + " " +
+                         date + ", " +
+                         (fourdigits(now.getYear())) ;
+                
+                document.write(today);
+                </script>
+                 </div>
+        </div>
+        
+       
+
+            
+            </body>
+</html>

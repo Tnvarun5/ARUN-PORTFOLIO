@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace
+}
+.background1 img{
+    position: fixed;
+}
+.background1{
+    z-index: -1;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+   margin: 20px;
+    display: inline;
+    
+}
+
+
+
+nav ul li a{
+    position: relative;
+    top: 30px;
+    color: rgb(3, 3, 3);
+    font-size: 23px;
+   
+    text-decoration: none;
+
+}
+
+.logo1 {
+    text-align:left;
+    position: relative;
+    top: 500px;
+    
+   
+} 
+.logo1 h1{
+    font-size: 30px;
+    
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 400px;
+    width: 600px;
+    left: 15%;
+}
+.logo1 h2{
+    color: rgb(114, 114, 114);
+    position: relative;
+    bottom: 400px;
+    width: 600px;
+    left: 20%;
+}
+.arun h1{
+    text-align: left;
+    position: relative;
+    left: 15%;
+    top:  100px;
+    color: rgb(0, 0, 0);
+}
+.arun h2{
+    text-align: left;
+    position: relative;
+    left: 20%;
+    top:  100px;
+    color: rgb(114, 114, 114);
+}
+.arun h3{
+    text-align:left;
+    position: relative;
+    left: 20%;
+    top:  100px;
+    color: rgb(161, 190, 79);
+}
+
+#name{
+color: blue;
+}
